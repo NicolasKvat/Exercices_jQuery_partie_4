@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+form {
+  background: #bebebe;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+/* input:invalid {
+  border: 2px solid red;
+} */
